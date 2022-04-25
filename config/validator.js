@@ -11,4 +11,4 @@ const userSchema = yup.object().shape({
 return userSchema.validate(data)
 }
 
-module.exports.validate
+module.exports=validate
